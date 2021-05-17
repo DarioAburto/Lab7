@@ -47,17 +47,17 @@ router.setState = function(state) {
 
     
     if(state == "settings"){
-      history.pushState({page: "settings"}, "settings", "https://darioaburto.github.io/Lab7/#settings");
+      history.pushState({page: "settings"}, "settings", "http://127.0.0.1:5500/#settings");
       document.querySelector("body").className = "settings";
       document.querySelector("h1").innerHTML = "Settings";
     }
     if(state == "home"){
-      history.pushState({page: "home"}, "home", "https://darioaburto.github.io/Lab7/");
+      history.pushState({page: "home"}, "home", "http://127.0.0.1:5500/");
       document.querySelector("body").className = "";
       document.querySelector("h1").innerHTML = "Journal Entries";
     }
     if(state == "You like jazz?"){
-      history.pushState({page: "entry1"}, "entry1", "https://darioaburto.github.io/Lab7/#entry1");
+      history.pushState({page: "entry1"}, "entry1", "http://127.0.0.1:5500/#entry1");
       document.querySelector("body").className = "single-entry";
       document.querySelector("h1").innerHTML = "Entry 1";
       //let entryPage  = document.querySelector("entry-page");
@@ -66,47 +66,47 @@ router.setState = function(state) {
       //document.querySelector("body").appendChild(entryPage);
     }
     if(state == "Run, Forrest! Run!"){
-      history.pushState({page: "entry2"}, "entry2", "https://darioaburto.github.io/Lab7/#entry2");
+      history.pushState({page: "entry2"}, "entry2", "http://127.0.0.1:5500/#entry2");
       document.querySelector("body").className = "single-entry";
       document.querySelector("h1").innerHTML = "Entry 2";
     }
     if( state == "Ogres are like onions"){
-      history.pushState({page: "entry3"}, "entry3", "https://darioaburto.github.io/Lab7/#entry3");
+      history.pushState({page: "entry3"}, "entry3", "http://127.0.0.1:5500/#entry3");
       document.querySelector("body").className = "single-entry";
       document.querySelector("h1").innerHTML = "Entry 3";
     }
     if( state == "You're a wizard, Harry"){
-      history.pushState({page: "entry4"}, "entry4", "https://darioaburto.github.io/Lab7/#entry4");
+      history.pushState({page: "entry4"}, "entry4", "http://127.0.0.1:5500/#entry4");
       document.querySelector("body").className = "single-entry";
       document.querySelector("h1").innerHTML = "Entry 4";
     }
     if ( state == "We know each other! He’s a friend from work!"){
-      history.pushState({page: "entry5"}, "entry5", "https://darioaburto.github.io/Lab7/#entry5");
+      history.pushState({page: "entry5"}, "entry5", "http://127.0.0.1:5500/#entry5");
       document.querySelector("body").className = "single-entry";
       document.querySelector("h1").innerHTML = "Entry 5";
     }
     if ( state == "I am... Iron Man" ){
-      history.pushState({page: "entry6"}, "entry6", "https://darioaburto.github.io/Lab7/#entry6");
+      history.pushState({page: "entry6"}, "entry6", "http://127.0.0.1:5500/#entry6");
       document.querySelector("body").className = "single-entry";
       document.querySelector("h1").innerHTML = "Entry 6";
     }
     if ( state == "Just keep swimming"){
-      history.pushState({page: "entry7"}, "entry7", "https://darioaburto.github.io/Lab7/#entry7");
+      history.pushState({page: "entry7"}, "entry7", "http://127.0.0.1:5500/#entry7");
       document.querySelector("body").className = "single-entry";
       document.querySelector("h1").innerHTML = "Entry 7";
     }
     if(state == "No capes!"){
-      history.pushState({page: "entry8"}, "entry8", "https://darioaburto.github.io/Lab7/#entry8");
+      history.pushState({page: "entry8"}, "entry8", "http://127.0.0.1:5500/#entry8");
       document.querySelector("body").className = "single-entry";
       document.querySelector("h1").innerHTML = "Entry 8";
     }
     if ( state == "Keep moving forward"){
-      history.pushState({page: "entry9"}, "entry9", "https://darioaburto.github.io/Lab7/#entry9");
+      history.pushState({page: "entry9"}, "entry9", "http://127.0.0.1:5500/#entry9");
       document.querySelector("body").className = "single-entry";
       document.querySelector("h1").innerHTML = "Entry 9";
     }
     if( state == "No, I am your father"){
-      history.pushState({page: "entry10"}, "entry1", "https://darioaburto.github.io/Lab7/#entry10");
+      history.pushState({page: "entry10"}, "entry1", "http://127.0.0.1:5500/#entry10");
       document.querySelector("body").className = "single-entry";
       document.querySelector("h1").innerHTML = "Entry 10";
     }
