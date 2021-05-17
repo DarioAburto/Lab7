@@ -10,6 +10,7 @@ document.querySelector("h1").addEventListener("click", function(){
 });
 
 
+
 /**
  * Changes the "page" (state) that your SPA app is currently set to
 */
